@@ -1,0 +1,139 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family:'Merriweather',serif;
+  color: #40513E
+}
+p{
+  font-weight: normal;
+  color:#0f4c75
+}
+h1 {
+  margin-top: 0;
+  font-family: 'Sacramento', cursive;
+  font-size: 562%;
+  margin-bottom: 2px;
+  color: #0f4c75;
+
+
+}
+
+h2{
+  font-family: 'Montserrat', sans-serif;
+  color: #0f4c75;
+
+}
+h3{
+  font-family: 'Montserrat', sans-serif;
+  color:#3282b8;
+}
+hr{
+  border-style: dotted none none none;
+  width: 5%;
+  border-width: 4px;
+  color: gray;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+a{
+  color:#3282b8;
+  text-decoration: none;
+  font-family: Montserrat;
+  margin: 20px 10px
+}
+
+a:hover{
+  color:#eaf6f6
+}
+
+.top-container {
+  background-color: #bbe1fa;
+  position: relative;
+  padding-top: 100px;
+
+}
+
+.middle-container {
+  margin: 100px auto;
+
+}
+
+.bottom-container {
+  background-color: #2bb2bb;
+  padding: 50px 0 20px
+
+
+}
+.bottom-cloud{
+  position: absolute;
+  left:500px;
+  bottom:300px;
+}
+.contact-message{
+  width:40%;
+  margin:40px auto 60px;
+
+}
+
+.skill-row{
+
+  width:50%;
+
+  margin:100px auto 100px auto;
+  text-align: left;
+  line-height: 2;
+
+
+}
+
+
+.skill-one{
+  width:18%;
+  float:left;
+  margin-right: 30px;
+
+
+}
+.skill-two{
+  width:18%;
+  float: right;
+  margin-right: 100px;
+
+
+}
+
+.top-cloud{
+  position: absolute;
+  right: 550px;
+  top:50px
+}
+.profile-pic{
+  width:256px;
+  height: 256px;
+}
+
+
+.btn {
+ box-shadow: 0px 10px 14px -7px #276873;
+ background:linear-gradient(to bottom, #599bb3 5%, #408c99 100%);
+ background-color:#599bb3;
+ border-radius:8px;
+ display:inline-block;
+ cursor:pointer;
+ color:#ffffff;
+ font-family:Montserrat;
+ font-size:20px;
+ font-weight:bold;
+ padding:13px 32px;
+ text-decoration:none;
+ text-shadow:0px 1px 0px #3d768a;
+}
+.btn:hover {
+ background:linear-gradient(to bottom, #408c99 5%, #599bb3 100%);
+ background-color:#408c99;
+}
+.btn:active {
+ position:relative;
+ top:1px;
+}
